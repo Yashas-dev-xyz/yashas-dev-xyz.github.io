@@ -1,0 +1,267 @@
+body{
+    background-image: linear-gradient(100deg, #235fa3 0%, #546272 100%);
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+}
+.backimg{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.img{
+    max-width: 100%;
+    height: 200px;
+    position: fixed;
+    padding-left: 600px;
+    padding-top: 100px;
+    display: inline;
+    /* padding-left: 1300px; */
+
+    /* width: 30px; */
+}   
+body{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.hello{
+    color: #6b6e70;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+h3{
+    position: fixed;
+    display: flex;
+    padding-left: 650px;
+    padding-top: 250px;
+    width: max-content;
+    color: hsl(0, 0%, 100%);
+    font-size: 65px;
+    text-align: center;
+}
+h2{
+    display: flex;
+    flex-grow:3;
+    /* padding-left: 1400px;
+    padding-top: 300px; */
+    width: max-content;
+    color: #2abb4a;
+    font-size: 75px;
+    text-align: center;
+}
+
+p{
+    max-width: 60%;
+    padding-top: 500px;
+    padding-left: 20%;
+    color: rgb(207, 159, 36);
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.about span{
+    color: #c3073f;
+    font-size: 25px;
+}
+
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+a {
+    font-weight: 550;
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(221, 172, 46);
+}
+
+a:visited {
+    color: rgb(221, 172, 46);
+}
+
+a:hover{
+    transition-duration: 0.1s;
+    font-size: 101%;
+}
+
+.navbar {       
+    font-size: 20px;
+    /* background-color: rgb(231, 133, 133); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+  .navbar ul {
+    overflow: auto;
+    padding-bottom: 150px;
+  }
+
+  .navbar li {
+    float: left;
+    list-style: none;
+    margin: 20px 20px;
+    transition: .3s ease
+  }
+
+  .navbar li a {
+    padding-right: 100px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    transition: .3s ease
+  }
+
+  .navbar li a:hover{
+    -ms-transform: scale(1500px); /* IE 9 */
+    -webkit-transform: scale(1500px); /* Safari 3-8 */
+    transform: scale(1.5); 
+    color: #c3073f;
+
+  }
+    @keyframes createBox{
+        from{
+            height:0px;
+            width: 0px;
+    
+        }
+        to{
+            height: 98px;
+            width: 98px;
+        }
+    }
+        /* .search {
+    float: right;
+    color: white;
+    padding: 10px 75px;
+  } */
+
+  .navbar input {
+    border: 2px sol id black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 150px;
+    height: 30px;
+  }
+
+  /* .quax{
+   flex-direction: row;
+    display: flex;
+ } */
+
+ .projects{
+     color: rgb(219, 51, 51);
+     font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+ }
+
+  .aboutquax{
+    border: 2px solid purple;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+   box-sizing: border-box;
+    color: rgb(255, 213, 108);
+    font-size: 20px;
+ position: relative;
+    
+    }
+ .redierectbuttons{
+    /* display: block; */
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+ }
+ .redierectbuttons:hover {
+	color: white;
+	background-color: crimson;
+ }
+/* footer {
+    margin: 150px;
+    padding: 3px;
+	background-image: linear-gradient(100deg, #235fa3 0%, #546272 100%);
+    width: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+footer .strong {
+    color: #ff0751;
+    font-size: 75px;
+    text-align: center; 
+} */
+
+
+
+
+
+@keyframes hamburger_puls {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.4);
+	}
+}
+@keyframes text_reveal_box {
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		width: 0;
+		left: 100%;
+	}
+}
+@keyframes text_reveal {
+	100% {
+		color: white;
+	}
+}
+@keyframes text_reveal_name {
+	100% {
+		color: crimson;
+		font-weight: 500;
+	}
+}   
